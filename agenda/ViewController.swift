@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     func loadTaks() {
         tasks = getMockTasks();
         for task in tasks {
-            // print(task.title);
+            print(task.title);
             
         }
     }
