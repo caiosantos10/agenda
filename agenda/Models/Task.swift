@@ -19,4 +19,8 @@ class Task {
         self.date = date;
         self.status = status;
     }
+    
+    func formattedDate() -> String {
+        return self.date.formatted(date: .numeric, time: .shortened);
+    }
 }

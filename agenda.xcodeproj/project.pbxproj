@@ -60,17 +60,33 @@
 		938322142AFD2C51004EA002 /* agenda */ = {
 			isa = PBXGroup;
 			children = (
+				93E1E2332AFFD72000B74C5C /* Models */,
+				93E1E2322AFFD6FC00B74C5C /* ViewControllers */,
 				938322152AFD2C51004EA002 /* AppDelegate.swift */,
 				938322172AFD2C51004EA002 /* SceneDelegate.swift */,
-				938322192AFD2C51004EA002 /* ViewController.swift */,
 				9383221B2AFD2C51004EA002 /* Main.storyboard */,
 				9383221E2AFD2C53004EA002 /* Assets.xcassets */,
 				938322202AFD2C53004EA002 /* LaunchScreen.storyboard */,
 				938322232AFD2C53004EA002 /* Info.plist */,
-				938322292AFD5F14004EA002 /* NewTaskViewController.swift */,
-				9383222B2AFD791D004EA002 /* Task.swift */,
 			);
 			path = agenda;
+			sourceTree = "<group>";
+		};
+		93E1E2322AFFD6FC00B74C5C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				938322292AFD5F14004EA002 /* NewTaskViewController.swift */,
+				938322192AFD2C51004EA002 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		93E1E2332AFFD72000B74C5C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9383222B2AFD791D004EA002 /* Task.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

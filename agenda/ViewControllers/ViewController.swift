@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
     var tasks: [Task] = [];
+
+    @IBOutlet weak var TaskView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad();
@@ -18,7 +20,7 @@ class ViewController: UIViewController {
         tasks = getMockTasks();
         for task in tasks {
             print(task.title);
-            
+            print(task.formattedDate());
         }
     }
     

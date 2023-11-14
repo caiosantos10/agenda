@@ -1,4 +1,4 @@
-## My Schedule APP
+## My Schedule APP initial template
 
 #### - This app is a schedule tool for organize your daily tasks.
 ### You will never forget to do your homework again.
