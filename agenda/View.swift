@@ -19,8 +19,16 @@ class View: UIView {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
         button.setTitleColor(.blue, for: .normal)
+        button.addTarget(self, action: #selector(didTapButton), for: .touchUpInside)
         return button
     }()
+    
+    weak var delegate: ViewDelegate?
+    
+    @objc
+    private func didTapButton() {
+        delegate?.didTapButton()
+    }
     
     init() {
         super.init(frame: .zero)

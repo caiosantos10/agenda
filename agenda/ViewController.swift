@@ -10,7 +10,9 @@ import UIKit
 class ViewController: UIViewController {
     
     private lazy var myView: View = {
-        return View()
+        let view = View()
+        view.delegate = self
+        return view
     }()
     
     override func loadView() {
@@ -23,6 +25,12 @@ class ViewController: UIViewController {
         super.viewDidLoad();
         
         myView.setup(labelText: "Olá mundo", buttonTitle: "Testar")
+    }
+}
+
+extension ViewController: ViewDelegate {
+    func didTapButton() {
+        myView.setup(labelText: "Sucesso", buttonTitle: "Testar novamente")
     }
 }
 
