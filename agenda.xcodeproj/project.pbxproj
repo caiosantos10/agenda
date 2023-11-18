@@ -12,6 +12,8 @@
 		9383221A2AFD2C51004EA002 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938322192AFD2C51004EA002 /* ViewController.swift */; };
 		9383221F2AFD2C53004EA002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9383221E2AFD2C53004EA002 /* Assets.xcassets */; };
 		938322222AFD2C53004EA002 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938322202AFD2C53004EA002 /* LaunchScreen.storyboard */; };
+		938FE2042B083CE200960004 /* ViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938FE2032B083CE200960004 /* ViewCode.swift */; };
+		938FE2062B083DD500960004 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938FE2052B083DD500960004 /* View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9383221E2AFD2C53004EA002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		938322212AFD2C53004EA002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		938322232AFD2C53004EA002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		938FE2032B083CE200960004 /* ViewCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCode.swift; sourceTree = "<group>"; };
+		938FE2052B083DD500960004 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				938322202AFD2C53004EA002 /* LaunchScreen.storyboard */,
 				938322232AFD2C53004EA002 /* Info.plist */,
 				938322192AFD2C51004EA002 /* ViewController.swift */,
+				938FE2032B083CE200960004 /* ViewCode.swift */,
+				938FE2052B083DD500960004 /* View.swift */,
 			);
 			path = agenda;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			files = (
 				9383221A2AFD2C51004EA002 /* ViewController.swift in Sources */,
 				938322162AFD2C51004EA002 /* AppDelegate.swift in Sources */,
+				938FE2062B083DD500960004 /* View.swift in Sources */,
 				938322182AFD2C51004EA002 /* SceneDelegate.swift in Sources */,
+				938FE2042B083CE200960004 /* ViewCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
